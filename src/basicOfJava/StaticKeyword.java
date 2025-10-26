@@ -1,4 +1,4 @@
-package oops;
+package basicOfJava;
 
 class Demo {
     static int a;

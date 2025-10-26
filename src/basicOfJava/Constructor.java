@@ -1,4 +1,4 @@
-package oops;
+package basicOfJava;
 
 public class Constructor {
 

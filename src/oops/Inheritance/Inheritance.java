@@ -1,6 +1,6 @@
 package oops.Inheritance;
 class Shahaji{
-    int age;
+    private int age;
     void showAge(){
         age =40;
         System.out.println("age is "+age);
@@ -9,6 +9,13 @@ class Shahaji{
 
 
 class Kokane extends Shahaji{
+    void dipsplay(){
+
+        // in child class private data member not inheritance in the child clas
+
+//        this is ensure  that encapsulation does not get affected
+        System.out.println("print age");
+    }
 
 }
 
